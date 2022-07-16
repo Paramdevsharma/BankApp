@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coe528.project.Main">
+   <children>
+      <Button fx:id="logout" layoutX="271.0" layoutY="332.0" mnemonicParsing="false" onAction="#lout" text="Log Out" />
+      <Button fx:id="oop" layoutX="469.0" layoutY="235.0" mnemonicParsing="false" onAction="#onlineOrder" text="Online Purchase" />
+      <Button fx:id="takout" layoutX="469.0" layoutY="148.0" mnemonicParsing="false" onAction="#subtract" text="Withdraw" />
+      <Button fx:id="impo" layoutX="469.0" layoutY="69.0" mnemonicParsing="false" onAction="#deposit" text="Deposit" />
+      <Label fx:id="name" layoutX="118.0" layoutY="61.0" prefHeight="17.0" prefWidth="67.0" text="Label" />
+      <Label fx:id="acn" layoutX="118.0" layoutY="94.0" prefHeight="17.0" prefWidth="67.0" text="Label" />
+      <Label fx:id="aba" layoutX="118.0" layoutY="140.0" prefHeight="17.0" prefWidth="67.0" text="Label" />
+      <Label fx:id="state" layoutX="118.0" layoutY="183.0" text="Label" />
+      <Label layoutX="14.0" layoutY="61.0" text="Name :" />
+      <Label layoutX="14.0" layoutY="94.0" text="Account number :" />
+      <Label layoutX="14.0" layoutY="140.0" text="Balance :" />
+      <Label layoutX="14.0" layoutY="183.0" text="State :" />
+      <TextField fx:id="diposit" layoutX="300.0" layoutY="66.0" />
+      <TextField fx:id="with" layoutX="300.0" layoutY="145.0" />
+      <TextField fx:id="op" layoutX="300.0" layoutY="235.0" />
+      <Label fx:id="oer" layoutX="361.0" layoutY="268.0" />
+   </children>
+</AnchorPane>
